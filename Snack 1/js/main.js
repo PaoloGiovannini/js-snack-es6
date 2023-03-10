@@ -22,9 +22,9 @@ const biciclette = [
   let biciLeggera = biciclette[0];
   
   biciclette.forEach(elementoCorrente => {
-    console.log(elementoCorrente)
+    console.log(elementoCorrente);
     const {peso} = elementoCorrente;
-    console.log(peso)
+    console.log(peso);
     if(peso <= biciLeggera.peso) {
       biciLeggera = elementoCorrente;
     }
